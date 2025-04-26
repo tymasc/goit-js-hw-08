@@ -1,0 +1,16 @@
+ul,li {
+    list-style: none;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 24px;
+    column-gap: 24px;
+    justify-content: center;
+}
+
+.gallery-image {
+    width: 360px;
+    height: 200px;
+}
